@@ -1,0 +1,33 @@
+.mune{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Noto Kufi Arabic', sans-serif;
+transition: width 0.3s ease;
+background-color: blue;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    transition: width 0.3s ease;
+    list-style: none;
+    background-color:blue;
+    text-align: center;
+    direction: rtl;
+    border-bottom: 1px solid rgba(255,255,255,0.11);
+}
+li{
+    direction: rtl;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    transition: width 0.3s ease;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 0.9rem !important;
+    width: 120px;
+}

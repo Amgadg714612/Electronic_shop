@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>mian Page UCTS INSERT PROD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styleinsertp.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <div style="background-color: lightcyan">
+            <marquee behavior="" direction=""> welcome to this to sell products </marquee>
+        </div>
+    </header>
+    <center>
+        <form action="insert_product.php" method="POST" enctype="multipart/form-data">
+            <fieldset dir="rtl" id="fieldset1">
+                <Legend> INSERT NEW PRODUCTE </Legend>
+                <div>
+                    <label for="namep">اسم المنتج </label> <input type="text" id="namep" name="name">
+                    <br>
+                    <br>
+                    <label for="pruces">السعر </label> <input type="number" id="pruce" name="pruc">
+                    <input type="radio" name="pruces" id="currency"> AR <input name="co" type="radio">YE
+                    <br>
+                    <input type="file" id="file" name="im_pro" accept=".png,.gif,.jpg,.webp" >
+                    <label for="file" id="lable" style="padding: 10px;cursor: pointer; font-size: 15px;"> اضافة صورة له
+                    </label>
+                </div>
+                <br>
+                <div id="act">
+                    <button style="cursor: pointer; " name="show"><a href="show_proderct_clien.php">عرض كل المنتج</a>  </button> <button name="update" id="update"> المنتج</button>
+
+                </div>
+            </fieldset>
+        </form>
+    </center>
+</body>
+
+</html>

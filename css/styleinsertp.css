@@ -1,0 +1,42 @@
+body
+{
+    background-image: url("/imag/backgrund_f1.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    direction: rtl;
+}
+#fieldset1{
+    width: 600px;
+    height: 200px;
+
+    font-style: italic
+    
+
+}
+form{
+    width: 600px;
+    height: 200;
+    margin-top: 10%;
+    margin-right: 30%;
+    background-image: url('/imag/backgrund_f1.png');
+    background-position: center;
+}
+#act{
+    margin-top: 10%;
+    border: 5%;
+}
+#enterdata{
+    color:darkcyan;margin-top: 5%;
+}
+#header{
+    margin-right: 30%;
+}
+#m{
+    color: blue;
+    font-style: italic;
+}
+
+#actions{
+    background-origin: border-box;
+    margin-top:5%;
+border: 10%;
+}
